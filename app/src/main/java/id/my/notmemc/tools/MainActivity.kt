@@ -194,11 +194,15 @@ class MainActivity : AppCompatActivity() {
 
         layout.addView(TextView(this).apply { text = "URL Server Top4Top MP3:" })
         layout.addView(inputTop4Top)
-        layout.addView(TextView(this).apply { text = "
-URL Server TikSave:" })
+        layout.addView(TextView(this).apply {
+            text = "URL Server TikSave:"
+            setPadding(0, 24, 0, 0)
+        })
         layout.addView(inputTikSave)
-        layout.addView(TextView(this).apply { text = "
-URL Server YTSave:" })
+        layout.addView(TextView(this).apply {
+            text = "URL Server YTSave:"
+            setPadding(0, 24, 0, 0)
+        })
         layout.addView(inputYTSave)
 
         AlertDialog.Builder(this)
