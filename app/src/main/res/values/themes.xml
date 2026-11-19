@@ -1,0 +1,11 @@
+<resources>
+    <style name="Theme.NotMeTools" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#10B981</item>
+        <item name="colorPrimaryVariant">#059669</item>
+        <item name="colorOnPrimary">#09090B</item>
+        <item name="colorSecondary">#06B6D4</item>
+        <item name="android:statusBarColor">#09090B</item>
+        <item name="android:navigationBarColor">#09090B</item>
+        <item name="android:windowBackground">#09090B</item>
+    </style>
+</resources>
